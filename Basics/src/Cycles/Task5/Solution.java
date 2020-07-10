@@ -12,6 +12,7 @@ public class Solution {
         System.out.println("Введите положительное число e");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
         Double e = Double.parseDouble(reader.readLine());
+        reader.close();
         double sum = 0;
         double n = 100;
 

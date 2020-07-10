@@ -13,6 +13,7 @@ public class Solution {
 
         //Трансформируем для работы
         String[] input = reader.readLine().split(" ");
+        reader.close();
 
         Double a = Double.parseDouble(input[0]);
         Double b = Double.parseDouble(input[1]);

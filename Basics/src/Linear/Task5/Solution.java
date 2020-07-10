@@ -12,21 +12,12 @@ public class Solution {
 
         //Трансформируем для работы
         Integer input = Integer.parseInt(reader.readLine());
-
-        int hours = 0;
-        int minutes = 0;
-        int seconds = 0;
+        reader.close();
 
         //Подсчет
-        while (input > 59) {
-            minutes += 1;
-            input -= 60;
-            if (minutes > 59) {
-                hours += 1;
-                minutes = 0;
-            }
-        }
-        seconds = input;
+        int hours = input/3600;
+        int minutes = (input%3600)/60;
+        int seconds = ((input%3600)%60);
 
         //Вывод
         System.out.printf("%dч %dмин %dс", hours, minutes, seconds);

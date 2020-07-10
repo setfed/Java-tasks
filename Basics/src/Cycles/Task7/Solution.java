@@ -10,6 +10,7 @@ public class Solution {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String[] input = reader.readLine().split(" ");
+        reader.close();
 
         int m = Integer.parseInt(input[0]);
         int n = Integer.parseInt(input[1]);

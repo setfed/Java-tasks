@@ -17,6 +17,7 @@ public class Solution {
         //Принимаем значения кирпича
         System.out.println("Введите длину, ширину и высоту кирпича");
         input = reader.readLine().split(" ");
+        reader.close();
         Double x = Double.parseDouble(input[0]);
         Double y = Double.parseDouble(input[1]);
         Double z = Double.parseDouble(input[2]);

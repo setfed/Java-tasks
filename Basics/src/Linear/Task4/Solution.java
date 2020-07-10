@@ -11,6 +11,7 @@ public class Solution {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         Double input = Double.parseDouble(reader.readLine());
+        reader.close();
 
         double result = (input * 1000) % 1000 + input.intValue() / 1000.0;
         System.out.println(result);

@@ -12,6 +12,7 @@ public class Solution {
             BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
             String initInput = reader.readLine();
             Integer input = Integer.parseInt(initInput);
+            reader.close();
             int sum = 0;
 
             if (input < 0) {

@@ -11,6 +11,7 @@ public class Solution {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String[] input = reader.readLine().split(" ");
+        reader.close();
 
         HashSet<Character> firstSet = addToSet(input[0].toCharArray());
         HashSet<Character> secondSet = addToSet(input[1].toCharArray());

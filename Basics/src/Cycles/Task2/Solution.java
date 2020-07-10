@@ -10,6 +10,7 @@ public class Solution {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         String[] input = reader.readLine().split(" ");
+        reader.close();
 
         Double a = Double.parseDouble(input[0]);
         Double b = Double.parseDouble(input[1]);

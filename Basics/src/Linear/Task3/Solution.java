@@ -17,6 +17,7 @@ public class Solution {
         String input = reader.readLine();
 
         String[] params = input.split(" ");
+        reader.close();
         double x = Double.parseDouble(params[0]);
         double y = Double.parseDouble(params[1]);
 

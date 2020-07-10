@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
-        System.out.println("Введите количество секунд для расчета");
+        System.out.println("Введите координаты для проверки");
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 
         //Трансформируем для работы
@@ -14,6 +14,7 @@ public class Solution {
 
         Integer x = Integer.parseInt(input[0]);
         Integer y = Integer.parseInt(input[1]);
+        reader.close();
 
 
         if (x >= -2 && x <= 2 && y >= -3 && y <= 4 ||

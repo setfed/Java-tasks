@@ -11,6 +11,7 @@ public class Solution {
 
         //Трансформируем для работы
         String[] input = reader.readLine().split(" ");
+        reader.close();
 
         Double angleA = Double.parseDouble(input[0]);
         Double angleB = Double.parseDouble(input[1]);
